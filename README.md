@@ -27,7 +27,7 @@ Pricing & Market Analysis
 ![Pricing Analysis](screenshots/Overview2_Kringloop_pricing.png)
 
 
-### Features
+### ✨Features
 Product Registration & Inventory Management
 Product registration
 Category management
@@ -66,21 +66,8 @@ JavaScript
 SQLite
 Image Processing Workflow
 Data-driven Price Analysis
-## Project Structure
-kringloop-project/
-│
-├── app.py
-├── database.py
-├── export_tools.py
-├── google_lens_helper.py
-├── image_price_search.py
-├── requirements.txt
-├── static/
-├── templates/
-├── uploads/
-├── cropped/
-└── screenshots/
-# Quick Start
+
+# 🚀Quick Start
 
 source venv/bin/activate
 ### Install Requirements
@@ -90,3 +77,23 @@ pip install -r requirements.txt
 python app.py
 
 Then open: http://127.0.0.1:5000
+
+### 🎯Project Goal
+
+The goal of this project is to support sustainable retail operations by improving the efficiency of pricing second-hand products.
+
+The system reduces manual effort, improves pricing consistency, and helps users make informed pricing decisions using market-based data and product condition analysis.
+
+Future Improvements
+AI-based image recognition
+Automatic product category detection
+Online marketplace integration
+Advanced analytics dashboard
+Cloud database integration
+Multi-user authentication
+
+## 💡 Final Note
+
+Thank you for checking out the Kringloop ERP Demo project.  
+I hope you enjoy exploring the system and its features. ♻️✨
+Feel free to contribute, improve, or use it as inspiration for your own projects.
