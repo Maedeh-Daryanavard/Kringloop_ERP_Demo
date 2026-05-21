@@ -30,35 +30,40 @@ Pricing & Market Analysis
 ![Pricing Analysis](screenshots/Overview2_Kringloop_pricing.png)
 
 
-### ✨Features
-📦 Product Management
-          Add second-hand products
-          Category selection
-          Inventory tracking
-          Sold product management
-📸 Image Processing
-          Product image upload
-          Image cropping
-          Automatic background removal
-          QR code label generation
-📊 Price Analysis
-          Google Lens assisted price checking
-          Manual market price input
-          Average price calculation
-          Damage/wear adjustment
-          Final resale price estimation
-📁 Export Functionality
-          Excel export
-          PDF export
-🛠️ Technologies Used
-          Python
-          Streamlit
-          SQLite
-          Pillow (PIL)
-          Rembg
-          QRCode
-          HTML/CSS (Streamlit UI rendering)
-          Data-driven Pricing Logic
+# ✨Features
+
+## 📦 Product Management
+- Add second-hand products
+- Category selection
+- Inventory tracking
+- Sold product management
+
+## 📸 Image Processing
+- Product image upload
+- Image cropping
+- Automatic background removal
+- QR code label generation
+
+## 📊 Price Analysis
+- Google Lens assisted price checking
+- Manual market price input
+- Average price calculation
+- Damage/wear adjustment
+- Final resale price estimation
+
+## 📁 Export Functionality
+- Excel export
+- PDF export
+
+## 🛠️ Technologies Used
+- Python
+- Streamlit
+- SQLite
+- Pillow (PIL)
+- Rembg
+- QRCode
+- HTML/CSS (Streamlit UI rendering)
+- Data-driven Pricing Logic
 
 # 🚀Quick Start
 
