@@ -1,19 +1,22 @@
 # Kringloop ERP Demo
-This is a Demo of a Kringloop Pricing System is a smart inventory and pricing platform developed for second-hand product management. The system helps users register products, upload product images, analyze market prices, estimate resale values, and manage inventory efficiently.
+This is a Demo of a Kringloop Pricing System which is a smart inventory and pricing platform developed for second-hand product management. The system helps users register products, upload product images, analyze market prices, estimate resale values, and manage inventory efficiently.
 The project combines image-based product handling with pricing analysis workflows to support sustainable retail and second-hand store operations. 
 
 ### Project Overview
 
-The Kringloop Pricing System is a smart inventory and pricing platform developed for second-hand product management. The system helps users:
+The Kringloop ERP Demo is a Python-based application designed to help second-hand stores manage products and estimate fair resale prices using image-assisted workflows and market price analysis.
 
-Register second-hand products
-Upload and manage product images
-Analyze market prices
-Estimate resale values
-Manage inventory efficiently
-Export product information
+The system allows users to:
 
-The project combines image-based workflows with pricing analysis to support sustainable retail and second-hand store operations.
+Register products
+Upload and crop product images
+Remove image backgrounds
+Compare market prices using Google Lens
+Calculate resale prices automatically
+Manage inventory and sold products
+Export product data to Excel and PDF
+
+The project supports sustainable retail operations by improving pricing consistency and reducing manual work.
 
 ### Screenshots
 Product Registration & Inventory
@@ -28,48 +31,38 @@ Pricing & Market Analysis
 
 
 ### ✨Features
-Product Registration & Inventory Management
-Product registration
-Category management
-Inventory tracking
-Image upload support
-Sold product management
-Export functionality
-Responsive user interface
-Image-Based Price Analysis
-
-Users can upload product images and compare prices using platforms such as Google Lens.
-
-#### The system supports:
-
-Market price comparison
-Manual market price entry
-Automatic average price calculation
-Image-assisted pricing workflow
-Price Adjustment & Final Estimation
-
-The pricing engine dynamically adjusts prices based on:
-
-Average market price
-Damage or wear percentage
-Manual price adjustments
-Condition-based calculations
-
-The system automatically calculates adjusted resale prices to support fair and realistic second-hand pricing.
-
-## Technologies Used
-Python
-Flask
-HTML5
-CSS3
-JavaScript
-SQLite
-Image Processing Workflow
-Data-driven Price Analysis
+📦 Product Management
+          Add second-hand products
+          Category selection
+          Inventory tracking
+          Sold product management
+📸 Image Processing
+          Product image upload
+          Image cropping
+          Automatic background removal
+          QR code label generation
+📊 Price Analysis
+          Google Lens assisted price checking
+          Manual market price input
+          Average price calculation
+          Damage/wear adjustment
+          Final resale price estimation
+📁 Export Functionality
+          Excel export
+          PDF export
+🛠️ Technologies Used
+          Python
+          Streamlit
+          SQLite
+          Pillow (PIL)
+          Rembg
+          QRCode
+          HTML/CSS (Streamlit UI rendering)
+          Data-driven Pricing Logic
 
 # 🚀Quick Start
 
-source venv/bin/activate
+
 ### Install Requirements
 pip install -r requirements.txt
 
